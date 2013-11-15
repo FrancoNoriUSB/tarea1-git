@@ -19,7 +19,9 @@ strong { font-weight: bold }
 
 #explanation div, footer p, article { width: 1000px; margin-left: auto; margin-right: auto }
 
-#explanation { background: #eeede8; padding: 30px 0; border-bottom: 8px #333 solid }
+#explanation {padding: 30px 0; border-bottom: 8px #333 solid;
+background: linear-gradient(#de252a, #eeede8); /* Standard syntax */ 
+}
 
 h3 { font-size: 20px; padding-bottom: 10px; margin: 50px 0 20px; border-bottom: 2px #eeede8 solid }
 
